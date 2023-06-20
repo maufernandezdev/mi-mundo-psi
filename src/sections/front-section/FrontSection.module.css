@@ -1,0 +1,49 @@
+.section{
+    width: 100%;
+    display: flex;
+}
+
+.cardAnto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+    padding: 1.5em;
+    background-color: var(--mainPink);
+}
+
+.titleAnto{
+    color: var(--mainBlueGrey);
+}
+
+.titleDana{
+    color: var(--mainPink);
+}
+
+.paragraph{
+    color: #fff;
+    font-size: 0.7em;
+    height: 80px;
+}
+
+.cardDana{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+    padding: 1.5em;
+    background-color: var(--mainBlueGrey);
+}
+
+.image{
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 0% 10%;
+    margin-bottom: 0.75em;
+}
+
+.footerFrontSection{
+    background-color: var(--mainGreen);
+    display: flex;
+    justify-content: center;
+}

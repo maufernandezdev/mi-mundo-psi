@@ -1,5 +1,6 @@
 import { Card } from "./Card"
 import styles from './FrontSection.module.css'
+import { FooterFrontSection } from '@/sections/front-section/FooterFrontSection'
 
 export function FrontSection(){
     return (
@@ -8,6 +9,7 @@ export function FrontSection(){
                 <Card person="anto"></Card>
                 <Card person="dana"></Card>
             </section>
+            <FooterFrontSection></FooterFrontSection>
         </>
     )
 }

@@ -1,0 +1,71 @@
+.presentation p{
+    text-align:center;
+    color: #ffffff;
+}
+.presentation p span{
+    font-weight: 700;
+}
+
+.welcome{
+    background-color: var(--mainOrange);
+    padding: 2.5rem 1rem;
+}
+
+.welcome h2{
+    color: var(--mainBlue);
+    text-align:center;
+    margin-bottom: 1rem;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+/* [2023-06-25] - personal presentation */
+
+.antoPresentation{
+    padding: 2.5rem 1rem;
+    background-color: var(--mainPink);
+}
+
+.antoPresentation p{ 
+    text-align: left;
+}
+
+.antoPresentation .imageContainer{
+    padding: 0.6rem;
+    background-color: var(--mainSkyGreen);
+    border-radius: 12px;
+    margin: 2rem auto 2rem auto;
+    width: 215px;
+}
+
+.antoPresentation .image{
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.danaPresentation{
+    padding: 2.5rem 1rem;
+    background-color: var(--mainBlueGrey);
+}
+
+.danaPresentation p{ 
+    text-align: left;
+}
+
+.danaPresentation .imageContainer{
+    padding: 0.6rem;
+    background-color: var(--mainPink);
+    border-radius: 12px;
+    margin: 2rem auto 2rem auto;
+    width: 215px;
+}
+
+.danaPresentation .image{
+    border-radius: 12px;
+    object-fit: cover;
+}

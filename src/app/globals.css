@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@font-face {
+	font-family: 'Baby Doll';
+	src: url('../assets/fonts/BabyDoll.otf') format('opentype'); 
+	src: url('../assets//fonts/BabyDoll.ttf') format('truetype');
+}
+
+/* [2023-06-20] - se busco fuente baby doll pero los formatos descargados no funcionan */
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -8,9 +17,13 @@
 
 html,
 body {
+
   max-width: 100vw;
   overflow-x: hidden;
+  
+
 }
+
 
 :root {
   /* [2023-06-19] - primary */
@@ -36,6 +49,10 @@ header {
 	height: 75px;
 	padding: 0 1em 0 1.5em;
 	color: var(--mainBlue);
+}
+
+header h3{
+	font-family: 'Baby Doll';
 }
 
 nav a {

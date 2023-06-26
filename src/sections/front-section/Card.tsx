@@ -18,7 +18,13 @@ export function Card({person}: Props){
                     className={styles.image}></Image>
             </div>
             <div style={{width:'100%'}}>
-                <h3 style={{color:'#fff', marginBottom:'0.5em'}}>Hola <br /> <span className={person === 'anto' ? styles.titleAnto: styles.titleDana}>soy {person === 'anto' ? ' Anto' : 'Dana'}!</span></h3>
+                <h3 style={{color:'#fff', marginBottom:'0.5em', textTransform:'uppercase'}}>
+                    Hola 
+                    <br /> 
+                    <span className={person === 'anto' ? styles.titleAnto: styles.titleDana}>
+                        soy {person === 'anto' ? ' Anto' : 'Dana'}!
+                    </span>
+                </h3>
                 {
                     person === 'anto' ? <p className={styles.paragraph}>Lic. en psicología. <br />
                     Estoy especializada en 

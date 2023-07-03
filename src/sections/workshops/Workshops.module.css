@@ -1,0 +1,114 @@
+.container{
+    text-align:center;
+}
+
+.introduction{
+    padding: 7rem 2rem 5rem 2rem;
+    background-color: var(--mainBlueGrey);
+}
+
+.container h2{
+    color: var(--mainPink);
+    margin-bottom: 1rem;
+}
+
+.container h2 span {
+    color:#fff;
+}
+
+.container p{
+    font-size: 0.85rem;
+    color: #fff;
+}
+
+/* [2023-07-02] - courses info */
+
+.container .courses{
+    padding: 3rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container .courses h2{
+    width: 100%;
+    margin: 0;
+    color: var(--mainBlueGrey);
+}
+
+.container .courses h3{
+    color: #fff;
+    background-color: var(--mainSkyGreen);
+    margin: 0.5rem 0rem;
+    border-radius: 10px;
+    padding: 0.2rem 0.5rem;
+    font-size: 1rem;
+}
+
+.container .courses .imgContainer{
+    margin-top: 0.5rem;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+
+.container .courses .imgBox{
+    padding: 0;
+    border-radius: 50%;
+    background-color: var(--mainPink);
+    padding: 5px 3px 0px 3px;
+    overflow: hidden;
+}
+
+.container .courses .imgBox img{
+    margin: 0;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: 0% 20%;
+}
+
+.container .courses h4{
+    color: var(--mainBlueGrey);
+    font-weight: 700;
+    font-size: 0.875rem;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+.container .courses .courseDescription{
+    padding: 1.5rem 0rem;
+    color: var(--mainBlueGrey);
+    font-size: 0.85rem;
+    text-align: left;
+}
+
+.container .courses .courseDescription span{
+    font-weight: 700;
+}
+
+.container .courseContent{
+    padding: 2.75rem 1rem 2rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--mainPink);
+}
+
+.container .courseContent h3{
+    font-size: 0.75rem;
+    color: var(--mainBlueGrey);
+    font-weight: 700;
+    /* margin-bottom: 0.5rem; */
+}
+
+.container .courseContent p{
+    font-size: 0.7rem;
+    color: var(--mainBlueGrey);
+    width: 150px;
+    margin: 0px auto;
+    margin-bottom: 1.75rem;
+}
+
+.container .courseContent svg{
+    font-size: 3.5rem;
+    color: var(--mainBlueGrey);
+}

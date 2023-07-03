@@ -61,7 +61,7 @@ export function PersonalPresentation ({person}: Props){
                         <div className={styles.imageContainer}>
                             <Image 
                                 src={imageAnto}
-                                width={195} height={325} 
+                                width={335} height={335} 
                                 alt="anto"
                                 className={styles.image}>
                             </Image>
@@ -111,7 +111,8 @@ export function PersonalPresentation ({person}: Props){
                         <div className={styles.imageContainer}>
                             <Image 
                                 src={imageDana}
-                                width={195} height={325} 
+                                // width={195} height={325} 
+                                width={335} height={335}
                                 alt="dana"
                                 className={styles.image}>
                             </Image>

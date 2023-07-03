@@ -4,6 +4,7 @@
 }
 .presentation p span{
     font-weight: 700;
+    font-size: 0.85rem;
 }
 
 .welcome{
@@ -33,6 +34,7 @@
 
 .antoPresentation p{ 
     text-align: left;
+    font-size: 0.85rem;
 }
 
 .antoPresentation .imageContainer{
@@ -41,11 +43,13 @@
     border-radius: 12px;
     margin: 2rem auto 2rem auto;
     width: 215px;
+    width: 100%;
 }
 
 .antoPresentation .image{
     border-radius: 12px;
     object-fit: cover;
+    object-position: 0% 15%;
 }
 
 .danaPresentation{
@@ -55,6 +59,7 @@
 
 .danaPresentation p{ 
     text-align: left;
+    font-size: 0.85rem;
 }
 
 .danaPresentation .imageContainer{
@@ -63,6 +68,7 @@
     border-radius: 12px;
     margin: 2rem auto 2rem auto;
     width: 215px;
+    width: 100%;
 }
 
 .danaPresentation .image{

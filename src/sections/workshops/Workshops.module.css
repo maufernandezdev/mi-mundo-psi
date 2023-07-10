@@ -1,5 +1,6 @@
 .container{
     text-align:center;
+    background-color: #efefef;
 }
 
 .introduction{
@@ -21,22 +22,23 @@
     color: #fff;
 }
 
-/* [2023-07-02] - courses info */
+/* [2023-07-02] - course info */
 
-.container .courses{
+.container .course{
     padding: 3rem 1rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: #efefef;
 }
 
-.container .courses h2{
+.container .course h2{
     width: 100%;
     margin: 0;
     color: var(--mainBlueGrey);
 }
 
-.container .courses h3{
+.container .course .blueTitle{
     color: #fff;
     background-color: var(--mainSkyGreen);
     margin: 0.5rem 0rem;
@@ -45,14 +47,23 @@
     font-size: 1rem;
 }
 
-.container .courses .imgContainer{
+.container .course .pinkTitle{
+    color: #fff;
+    background-color: var(--mainPink);
+    margin: 0.5rem 0rem 0rem 0rem;
+    border-radius: 10px;
+    padding: 0.2rem 0.5rem;
+    font-size: 1rem;
+}
+
+.container .course .imgContainer{
     margin-top: 0.5rem;
     width: 100%;
     display:flex;
     justify-content: center;
 }
 
-.container .courses .imgBox{
+.container .course .imgBox{
     padding: 0;
     border-radius: 50%;
     background-color: var(--mainPink);
@@ -60,28 +71,36 @@
     overflow: hidden;
 }
 
-.container .courses .imgBox img{
+.container .course .imgBox__dana{
+    padding: 0;
+    border-radius: 50%;
+    background-color: var(--mainSkyGreen);
+    padding: 5px 3px 0px 3px;
+    overflow: hidden;
+}
+
+.container .course img{
     margin: 0;
     object-fit: cover;
     border-radius: 50%;
     object-position: 0% 20%;
 }
 
-.container .courses h4{
+.container .course h4{
     color: var(--mainBlueGrey);
     font-weight: 700;
     font-size: 0.875rem;
     font-style: italic;
     margin-top: 0.5rem;
 }
-.container .courses .courseDescription{
+.container .course .courseDescription{
     padding: 1.5rem 0rem;
     color: var(--mainBlueGrey);
     font-size: 0.85rem;
     text-align: left;
 }
 
-.container .courses .courseDescription span{
+.container .course .courseDescription span{
     font-weight: 700;
 }
 
@@ -90,7 +109,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: var(--mainPink);
 }
 
 .container .courseContent h3{
@@ -111,4 +129,8 @@
 .container .courseContent svg{
     font-size: 3.5rem;
     color: var(--mainBlueGrey);
+}
+
+.buttonContainer{
+    padding: 1rem 0rem 4rem 0rem;
 }

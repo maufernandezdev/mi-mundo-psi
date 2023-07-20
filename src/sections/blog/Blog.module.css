@@ -1,0 +1,32 @@
+.container{
+    text-align:center;
+    background-color: #edc37c;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 1rem;
+}
+
+.container .titleContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.container .titleContainer h2{
+
+    background-color: #a4e5fe;
+    color: #fff;
+    padding: 0.1rem 1rem;
+    border-radius: 15px;
+    font-size: 1.75rem;
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 14px;
+    width: 225px;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+}

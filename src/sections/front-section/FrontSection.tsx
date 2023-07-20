@@ -1,3 +1,5 @@
+'use client'
+
 import { Card } from "./Card"
 import styles from './FrontSection.module.css'
 import { FooterFrontSection } from '@/sections/front-section/FooterFrontSection'

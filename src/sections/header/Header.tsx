@@ -1,4 +1,5 @@
 'use client'
+
 import logo from '@/assets/images/Logo.svg'
 import Image from 'next/image'
 import { useRef } from "react";

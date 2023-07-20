@@ -1,3 +1,5 @@
+'use client'
+
 import styles from './PresentationSection.module.css'
 import { PrimaryButton } from '../shared/PrimaryButton'
 import { PersonalPresentation } from './PersonalPresentation'

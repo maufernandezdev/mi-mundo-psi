@@ -46,4 +46,13 @@
     background-color: var(--mainGreen);
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem;
+    width: 100%;
+}
+
+.title{
+    width: 100%;
+    color: #264e56;
+    text-align:center;
 }

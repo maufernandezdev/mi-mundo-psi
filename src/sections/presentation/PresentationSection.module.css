@@ -12,10 +12,19 @@
     padding: 2.5rem 1rem;
 }
 
-.welcome h2{
-    color: var(--mainBlue);
+
+.welcome .title{
     text-align:center;
     margin-bottom: 1rem;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome .title h2{
+    color: var(--mainBlue);
+    text-align:center;
+    margin-right: 7px;
 }
 
 .buttonContainer{
@@ -74,4 +83,37 @@
 .danaPresentation .image{
     border-radius: 12px;
     object-fit: cover;
+}
+
+@media (min-width: 1024px){ 
+    .introContainer{
+        max-width: 600px;
+        margin: 0px auto;
+    }
+
+    .antoPresentation .imageContainer{
+        padding: 0.6rem;
+        background-color: var(--mainSkyGreen);
+        border-radius: 12px;
+        margin: 0rem auto 0rem auto;
+        width: 295px;
+    }
+
+    .antoPresentation .image{
+        width: 275px;
+        height: 500px;
+    }
+
+    .danaPresentation .imageContainer{
+        padding: 0.6rem;
+        background-color: var(--mainSkyGreen);
+        border-radius: 12px;
+        margin: 0rem auto 0rem auto;
+        width: 295px;
+    }
+
+    .danaPresentation .image{
+        width: 275px;
+        height: 500px;
+    }
 }

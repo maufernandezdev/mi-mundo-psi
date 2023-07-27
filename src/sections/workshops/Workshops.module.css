@@ -5,7 +5,7 @@
 
 .introduction{
     padding: 7rem 2rem 5rem 2rem;
-    background-color: var(--mainBlueGrey);
+    background-color: var(--mainBlue);
 }
 
 .container h2{
@@ -35,7 +35,7 @@
 .container .course h2{
     width: 100%;
     margin: 0;
-    color: var(--mainBlueGrey);
+    color: var(--mainBlue);
 }
 
 .container .course .blueTitle{
@@ -87,7 +87,7 @@
 }
 
 .container .course h4{
-    color: var(--mainBlueGrey);
+    color: var(--mainBlue);
     font-weight: 700;
     font-size: 0.875rem;
     font-style: italic;
@@ -95,7 +95,7 @@
 }
 .container .course .courseDescription{
     padding: 1.5rem 0rem;
-    color: var(--mainBlueGrey);
+    color: var(--mainBlue);
     font-size: 0.85rem;
     text-align: left;
 }
@@ -113,14 +113,14 @@
 
 .container .courseContent h3{
     font-size: 0.75rem;
-    color: var(--mainBlueGrey);
+    color: var(--mainBlue);
     font-weight: 700;
     /* margin-bottom: 0.5rem; */
 }
 
 .container .courseContent p{
     font-size: 0.7rem;
-    color: var(--mainBlueGrey);
+    color: var(--mainBlue);
     width: 150px;
     margin: 0px auto;
     margin-bottom: 1.75rem;
@@ -128,7 +128,7 @@
 
 .container .courseContent svg{
     font-size: 3.5rem;
-    color: var(--mainBlueGrey);
+    color: var(--mainBlue);
 }
 
 .buttonContainer{

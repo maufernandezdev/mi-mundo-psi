@@ -1,3 +1,5 @@
+'use client';
+
 import Image from 'next/image'
 import bookImage from '@/assets/images/viktor-frankl.jpg'
 import styles from './Blog.module.css'
@@ -8,17 +10,19 @@ interface Props {
     categoryLabel: string,
     title: string;
     author: string;
+    labelBackgroundColor: string
 }
-export function Card ({image,categoryLabel,title, author}: Props){
-    
+export function Card ({image,categoryLabel,title, author,labelBackgroundColor }: Props){
     return (
         <div className={styles.card}>
-            <Image src={bookImage} width={125} height={150} alt="book"></Image>
-            <h3>{categoryLabel}</h3>
-            <h3>{title}</h3>
-            <h3>{author}</h3>
+            <div className={styles.imgContainer}>
+                <Image src={bookImage} width={'100'} height={215} className={styles.img} alt="book"></Image>
+            </div>
+            <h3 className={styles.label} style={{backgroundColor: labelBackgroundColor}}>{categoryLabel}</h3>
+            <h3 className={styles.title}>{title}</h3>
+            <h3 className={styles.author}>{author}</h3>
             {/* <button>leer más</button> */}
-            <div style={{marginTop: 15}}>
+            <div style={{marginTop: 35, marginBottom: 15}}>
                 <PrimaryButton title='leer más' backgroundColor='#5f728d'></PrimaryButton>
             </div>
         </div>

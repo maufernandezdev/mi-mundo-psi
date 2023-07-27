@@ -26,7 +26,40 @@
 .card{
     background-color: #fff;
     border-radius: 14px;
-    width: 225px;
-    padding: 0.75rem;
+    width: 230px;
+    /* padding: 0.75rem; */
     margin-bottom: 1rem;
+}
+.card .imgContainer{
+    padding: 0.85rem;
+}
+
+.card .imgContainer .img{
+    border-radius: 14px;
+    width: 85%;
+}
+
+.card .label{
+    width: 40%;
+    font-size: 0.75rem;
+    text-align: right;
+    color: var(--mainBlue);
+    font-weight: 300;
+    padding-right: 5px;
+}
+
+.card .title{
+    color: var(--mainBlue);
+    font-weight: 900;
+    font-size: 1rem;
+    text-align: left;
+    padding: 0.85rem;
+}
+
+.card .author{
+    color: var(--mainBlue);
+    font-size: 0.75rem;
+    text-align: left;
+    padding-left: 0.85rem;
+    font-weight: 300;
 }

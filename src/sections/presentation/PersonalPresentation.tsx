@@ -10,6 +10,7 @@ interface Props{
 export function PersonalPresentation ({person}: Props){
     return (
         <section className={person === 'anto' ? styles.antoPresentation : styles.danaPresentation }>
+            <div style={{maxWidth:1024, margin:'0px auto'}}>
             <h2 style={{color:'#fff'}}>HOLA</h2>
             <h2 style={{
                 marginBottom:'1rem', 
@@ -21,7 +22,8 @@ export function PersonalPresentation ({person}: Props){
             </h2>
             {
                 person === 'anto' ? (
-                    <div>
+                    <div style={{maxWidth:'100%', display:'flex', flexWrap:'wrap'}}> 
+                    <div style={{maxWidth:'55%'}}>
                         <p>
                             Hola ! <span>Soy Antonela Oreggioni</span>, Lic. en psicología (Mat. 1994). 
                             Estoy especializada en psicología clínica y orientación vocacional.
@@ -58,6 +60,7 @@ export function PersonalPresentation ({person}: Props){
                             esencia y reinventándome, porque la vida para mi es eso...
                             <span>una constante búsqueda de la felicidad.</span> 
                         </p>
+                        </div>
                         <div className={styles.imageContainer}>
                             <Image 
                                 src={imageAnto}
@@ -72,7 +75,8 @@ export function PersonalPresentation ({person}: Props){
 
                     </div>
                 ) : (
-                    <div>
+                    <div style={{maxWidth:'100%', display:'flex', flexWrap:'wrap'}}>
+                         <div style={{maxWidth:'55%'}}>
                         <p>
                             Hola ! Soy <span>Dana Petit</span>, creo mucho en lo lindo de mostrar la parte 
                             humana del terapeuta así que hoy voy a contarles un poco de mí: 
@@ -108,6 +112,7 @@ export function PersonalPresentation ({person}: Props){
                         </p>
                         <br />
                         <p>Los espero.</p>
+                        </div>
                         <div className={styles.imageContainer}>
                             <Image 
                                 src={imageDana}
@@ -123,6 +128,7 @@ export function PersonalPresentation ({person}: Props){
                     </div>
                 )
             }
+             </div>
         </section>
     )
 }

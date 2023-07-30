@@ -1,58 +1,66 @@
-.section{
-    width: 100%;
-    display: flex;
+.section {
+  width: 100%;
+  display: flex;
 }
 
-.cardAnto{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 50%;
-    padding: 1.5em;
-    background-color: var(--mainPink);
+.cardAnto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+  padding: 1.5em;
+  background-color: var(--mainPink);
 }
 
-.titleAnto{
-    color: var(--mainBlueGrey);
+.cardAnto h3 {
+  font-family: var(--fontBabyDoll);
 }
 
-.titleDana{
-    color: var(--mainPink);
+.titleAnto {
+  font-family: var(--fontBabyDoll);
+  color: var(--mainBlueGrey);
 }
 
-.paragraph{
-    color: #fff;
-    font-size: 0.7em;
-    height: 80px;
+.titleDana {
+  color: var(--mainPink);
+  font-family: var(--fontBabyDoll);
 }
 
-.cardDana{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 50%;
-    padding: 1.5em;
-    background-color: var(--mainBlueGrey);
+.cardDana {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+  padding: 1.5em;
+  background-color: var(--mainBlueGrey);
 }
 
-.image{
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: 0% 10%;
-    margin-bottom: 0.75em;
+.cardDana h3 {
+  font-family: var(--fontBabyDoll);
 }
 
-.footerFrontSection{
-    background-color: var(--mainGreen);
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 3rem;
-    width: 100%;
+.image {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 30% 10%;
+  margin-bottom: 0.75em;
+  width: 160px;
+  height: 160px;
 }
 
-.title{
-    width: 100%;
-    color: #264e56;
-    text-align:center;
+.footerFrontSection {
+  background-color: var(--mainGreen);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 3rem;
+  width: 100%;
+}
+
+.title {
+  width: 100%;
+  color: #264e56;
+  text-align: center;
+  font-family: var(--fontBabyDoll);
+  font-size: 30px;
 }

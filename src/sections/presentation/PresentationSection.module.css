@@ -1,119 +1,139 @@
-.presentation p{
-    text-align:center;
-    color: #ffffff;
+.presentation p {
+  text-align: center;
+  color: #ffffff;
 }
-.presentation p span{
-    font-weight: 700;
-    font-size: 0.85rem;
-}
-
-.welcome{
-    background-color: var(--mainOrange);
-    padding: 2.5rem 1rem;
+.presentation p span {
+  font-weight: 700;
+  font-size: 0.85rem;
 }
 
-
-.welcome .title{
-    text-align:center;
-    margin-bottom: 1rem;
-    /* background-color: red; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.welcome .title h2{
-    color: var(--mainBlue);
-    text-align:center;
-    margin-right: 7px;
+.welcome {
+  background-color: var(--mainOrange);
+  padding: 2.5rem 1rem;
 }
 
-.buttonContainer{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 1rem;
+.welcome .title {
+  text-align: center;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcome .title h2 {
+  font-family: var(--fontBabyDoll);
+  font-size: 30px;
+  color: var(--mainBlue);
+  text-align: center;
+  margin-right: 7px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1rem;
 }
 
 /* [2023-06-25] - personal presentation */
 
-.antoPresentation{
-    padding: 2.5rem 1rem;
-    background-color: var(--mainPink);
+.antoPresentation {
+  padding: 2.5rem 1rem;
+  background-color: var(--mainPink);
 }
 
-.antoPresentation p{ 
-    text-align: left;
-    font-size: 0.85rem;
+.antoPresentation p {
+  text-align: left;
+  font-size: 0.85rem;
 }
 
-.antoPresentation .imageContainer{
+.antoPresentation h2 {
+  font-family: var(--fontBabyDoll);
+  font-size: 30px;
+}
+
+.antoPresentation .imageContainer {
+  padding: 0.6rem;
+  background-color: var(--mainSkyGreen);
+  border-radius: 12px;
+  margin: 2rem auto 2rem auto;
+  width: 215px;
+  width: 100%;
+}
+
+.antoPresentation .image {
+  border-radius: 12px;
+  object-fit: cover;
+  object-position: 0% 15%;
+  height: 335px;
+}
+
+.danaPresentation {
+  padding: 2.5rem 1rem;
+  background-color: var(--mainBlueGrey);
+}
+
+.danaPresentation h2 {
+  font-family: var(--fontBabyDoll);
+  font-size: 30px;
+}
+
+.danaPresentation p {
+  text-align: left;
+  font-size: 0.85rem;
+}
+
+.danaPresentation .imageContainer {
+  padding: 0.6rem;
+  background-color: var(--mainPink);
+  border-radius: 12px;
+  margin: 2rem auto 2rem auto;
+  width: 215px;
+  width: 100%;
+}
+
+.danaPresentation .image {
+  border-radius: 12px;
+  object-fit: cover;
+  height: 335px;
+}
+
+@media (min-width: 1024px) {
+  .introContainer {
+    max-width: 600px;
+    margin: 0px auto;
+  }
+
+  .antoPresentation .imageContainer {
     padding: 0.6rem;
     background-color: var(--mainSkyGreen);
     border-radius: 12px;
-    margin: 2rem auto 2rem auto;
-    width: 215px;
-    width: 100%;
-}
+    margin: 0rem auto 0rem auto;
+    width: 295px;
+  }
 
-.antoPresentation .image{
-    border-radius: 12px;
-    object-fit: cover;
-    object-position: 0% 15%;
-}
+  .antoPresentation .image {
+    width: 275px;
+    height: 500px;
+  }
 
-.danaPresentation{
-    padding: 2.5rem 1rem;
-    background-color: var(--mainBlueGrey);
-}
+  .antoPresentation .anto {
+    max-width: 55%;
+  }
 
-.danaPresentation p{ 
-    text-align: left;
-    font-size: 0.85rem;
-}
-
-.danaPresentation .imageContainer{
+  .danaPresentation .imageContainer {
     padding: 0.6rem;
-    background-color: var(--mainPink);
+    background-color: var(--mainSkyGreen);
     border-radius: 12px;
-    margin: 2rem auto 2rem auto;
-    width: 215px;
-    width: 100%;
-}
+    margin: 0rem auto 0rem auto;
+    width: 295px;
+  }
 
-.danaPresentation .image{
-    border-radius: 12px;
-    object-fit: cover;
-}
+  .danaPresentation .image {
+    width: 275px;
+    height: 500px;
+  }
 
-@media (min-width: 1024px){ 
-    .introContainer{
-        max-width: 600px;
-        margin: 0px auto;
-    }
-
-    .antoPresentation .imageContainer{
-        padding: 0.6rem;
-        background-color: var(--mainSkyGreen);
-        border-radius: 12px;
-        margin: 0rem auto 0rem auto;
-        width: 295px;
-    }
-
-    .antoPresentation .image{
-        width: 275px;
-        height: 500px;
-    }
-
-    .danaPresentation .imageContainer{
-        padding: 0.6rem;
-        background-color: var(--mainSkyGreen);
-        border-radius: 12px;
-        margin: 0rem auto 0rem auto;
-        width: 295px;
-    }
-
-    .danaPresentation .image{
-        width: 275px;
-        height: 500px;
-    }
+  .danaPresentation .dana {
+    max-width: 55%;
+  }
 }

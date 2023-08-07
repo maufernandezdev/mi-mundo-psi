@@ -20,9 +20,9 @@ export function Card({ person }: Props) {
         ></Image>
       </div>
       <div>
-        <h3 className="text-white uppercase text-[22px]">Hola</h3>
+        <h3 className="text-white uppercase text-[22px] font-semibold">Hola</h3>
         <h3
-          className={`text-white mb-2 uppercase text-[22px] mt-[-12px] ${
+          className={`mb-2 uppercase text-[22px] mt-[-12px] font-semibold ${
             person === "anto" ? "text-blue-grey" : "text-pink"
           }`}
         >

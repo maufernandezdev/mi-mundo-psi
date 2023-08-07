@@ -11,7 +11,7 @@ export default function header() {
     navRef.current?.classList.toggle("responsive_nav");
   };
   return (
-    <header>
+    <header className="max-w-[1024px] m-auto">
       <h3>Mi mundo psi</h3>
       <nav ref={navRef}>
         <a href="/#">Home</a>

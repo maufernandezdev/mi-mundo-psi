@@ -22,6 +22,9 @@ module.exports = {
       "sky-green": "#7cbab5",
       "primary-grey": "#9ec9ac",
     },
+    fontFamily: {
+      sans: ["Open Sans", "sans-serif"],
+    },
     extend: {},
   },
   plugins: [],

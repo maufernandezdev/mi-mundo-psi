@@ -23,6 +23,16 @@
   height: 105px;
 }
 
+.container .imgBoxDana {
+  padding: 0;
+  border-radius: 50%;
+  background-color: var(--mainSkyBlue);
+  padding: 3px 3px 0px 3px;
+  overflow: hidden;
+  width: 105px;
+  height: 105px;
+}
+
 .container img {
   margin: 0;
   object-fit: cover;

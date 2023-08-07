@@ -15,9 +15,11 @@ export function PersonalPresentation({ person }: Props) {
       }
     >
       <div style={{ maxWidth: 1024, margin: "0px auto" }}>
-        <h2 style={{ color: "#fff" }}>HOLA</h2>
+        <h2 style={{ color: "#fff" }} className="font-semibold">
+          HOLA
+        </h2>
         <h2
-          className={`mb-4 uppercase mt-[-12px] ${
+          className={`mb-4 uppercase mt-[-18px] font-semibold ${
             person === "anto" ? "text-blue-grey" : "text-pink"
           }`}
         >

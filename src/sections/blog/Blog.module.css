@@ -1,37 +1,24 @@
 .container {
   text-align: center;
   background-color: #edc37c;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 3rem 1rem;
+  padding: 3rem 0rem;
 }
 
-.container .titleContainer {
-  display: flex;
-  justify-content: flex-start;
-  width: 100%;
-  margin-bottom: 2rem;
-}
-
-.container .titleContainer h2 {
+.container h2 {
   font-family: var(--fontBabyDoll);
   font-size: 30px;
 }
 
-.container .titleContainer .label {
-  background-color: #a4e5fe;
-  color: #fff;
-  border-radius: 15px;
-}
+/* [2023-08-20] - card */
 
 .card {
   background-color: #fff;
   border-radius: 14px;
   width: 230px;
-  /* padding: 0.75rem; */
-  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  margin-bottom: 1.5rem;
 }
+
 .card .imgContainer {
   padding: 0.85rem;
 }

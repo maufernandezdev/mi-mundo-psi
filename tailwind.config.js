@@ -21,9 +21,11 @@ module.exports = {
       "blue-grey": "#5f728d",
       "sky-green": "#7cbab5",
       "primary-grey": "#9ec9ac",
+      grey: "#efefef",
     },
     fontFamily: {
       sans: ["Open Sans", "sans-serif"],
+      "baby-doll": ["Baby Doll"],
     },
     extend: {},
   },

@@ -7,9 +7,11 @@ export function FooterFrontSection() {
   return (
     <div className={styles.footerFrontSection}>
       <div>
-        <Image src={logoColor} width={110} height={90} alt="logo"></Image>
+        <Image src={logoColor} width={80} height={60} alt="logo"></Image>
       </div>
-      <h2 className={styles.title}>Mi mundo psi</h2>
+      <h2 className="text-center font-baby-doll text-[27px] text-primary-blue uppercase mt-1">
+        Mi mundo psi
+      </h2>
     </div>
   );
 }

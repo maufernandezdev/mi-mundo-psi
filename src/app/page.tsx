@@ -8,7 +8,6 @@ import { SliderHome } from "@/sections/slider-home/Slider";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <SliderHome></SliderHome>
       <FrontSection></FrontSection>
       <PresentationSection></PresentationSection>
       <Workshops></Workshops>

@@ -1,14 +1,15 @@
 .section {
   width: 100%;
   display: flex;
+  max-width: 750px;
+  height: 185px;
 }
 
 .cardAnto {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 50%;
-  padding: 1.5em;
+  justify-content: flex-start;
+  width: 250px;
+  padding: 1.5rem 1rem;
   background-color: var(--mainPink);
 }
 
@@ -28,10 +29,9 @@
 
 .cardDana {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 50%;
-  padding: 1.5em;
+  justify-content: flex-start;
+  width: 250px;
+  padding: 1.5rem 1rem;
   background-color: var(--mainBlueGrey);
 }
 
@@ -43,24 +43,18 @@
   border-radius: 50%;
   object-fit: cover;
   object-position: 30% 10%;
-  margin-bottom: 0.75em;
-  width: 160px;
-  height: 160px;
+  margin-right: 1rem;
+  width: 100px;
+  height: 100px;
 }
 
 .footerFrontSection {
   background-color: var(--mainGreen);
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  padding: 3rem;
-  width: 100%;
-}
-
-.title {
-  width: 100%;
-  color: #264e56;
-  text-align: center;
-  font-family: var(--fontBabyDoll);
-  font-size: 30px;
+  flex-direction: column;
+  padding: 2rem;
+  width: 250px;
 }

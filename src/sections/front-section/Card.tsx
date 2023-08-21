@@ -13,28 +13,28 @@ export function Card({ person }: Props) {
       <div>
         <Image
           src={person === "anto" ? imageAnto : imageDana}
-          width={160}
-          height={160}
+          width={100}
+          height={100}
           alt="person"
           className={styles.image}
         ></Image>
       </div>
-      <div>
-        <h3 className="text-white uppercase text-[22px] font-semibold">Hola</h3>
+      <div className="w-[110px]">
+        <h3 className="text-white uppercase text-[20px] font-semibold">Hola</h3>
         <h3
-          className={`mb-2 uppercase text-[22px] mt-[-12px] font-semibold ${
+          className={`mb-2 uppercase text-[20px] mt-[-12px] font-semibold ${
             person === "anto" ? "text-blue-grey" : "text-pink"
           }`}
         >
           soy {person === "anto" ? " Anto" : "Dana"}!
         </h3>
         {person === "anto" ? (
-          <p className="text-white text-[11px] h-[80px]">
+          <p className="text-white text-[10px] h-[80px]">
             Lic. en psicología. <br />
             Estoy especializada en psicología clínica y orientación vocacional.
           </p>
         ) : (
-          <p className="text-white text-[11px] h-[80px]">
+          <p className="text-white text-[10px] h-[80px]">
             Lic. en psicología. <br />
             Estoy especializada en Terapia Sistémica y Terapia Cognitivo
             Conductual.

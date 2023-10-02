@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useRef } from "react";
 import { HiBars3 } from "react-icons/hi2";
 import { RxCross2 } from "react-icons/rx";
@@ -12,7 +13,9 @@ export default function header() {
   };
   return (
     <header className="max-w-[1024px] m-auto z-50">
-      <h3>Mi mundo psi</h3>
+      <Link href="/">
+        <h3>Mi mundo psi</h3>
+      </Link>
       <nav ref={navRef} className="z-50">
         <a href="/#">Home</a>
         <a href="/#">Talleres</a>

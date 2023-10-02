@@ -28,7 +28,7 @@ export function PersonalPresentation({ person }: Props) {
         {person === "anto" ? (
           <>
             <div className="max-w-[1024px] flex flex-wrap justify-around">
-              <div className="max-w-[660px] mr-16">
+              <div className="max-w-[660px] lg:mr-16">
                 <p>
                   Hola ! <span>Soy Antonela Oreggioni</span>, Lic. en psicología
                   (Mat. 1994). Estoy especializada en psicología clínica y
@@ -96,7 +96,7 @@ export function PersonalPresentation({ person }: Props) {
         ) : (
           <>
             <div className="max-w-[1024px] flex flex-wrap justify-around">
-              <div className="max-w-[660px] mr-16">
+              <div className="max-w-[660px] lg:mr-16">
                 <p>
                   Hola ! Soy <span>Dana Petit</span>, creo mucho en lo lindo de
                   mostrar la parte humana del terapeuta así que hoy voy a

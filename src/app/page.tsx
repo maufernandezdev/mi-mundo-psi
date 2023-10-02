@@ -3,7 +3,7 @@ import { FrontSection } from "@/sections/front-section/FrontSection";
 import { PresentationSection } from "@/sections/presentation/Presentation";
 import { Workshops } from "@/sections/workshops/Workshops";
 import { Blog } from "@/sections/blog/Blog";
-import { SliderHome } from "@/sections/slider-home/Slider";
+import { Contact } from "@/sections/contact/Contact";
 
 export default function Home() {
   return (
@@ -12,6 +12,7 @@ export default function Home() {
       <PresentationSection></PresentationSection>
       <Workshops></Workshops>
       <Blog></Blog>
+      <Contact></Contact>
     </main>
   );
 }

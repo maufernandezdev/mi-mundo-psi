@@ -24,6 +24,18 @@ body {
   overflow-x: hidden;
 }
 
+textarea {
+  resize: none;
+}
+
+textarea::placeholder {
+  color: var(--mainBlue);
+}
+
+input::placeholder {
+  color: var(--mainBlue);
+}
+
 :root {
   /* [2023-06-19] - primary */
 

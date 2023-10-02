@@ -27,6 +27,11 @@ module.exports = {
       sans: ["Open Sans", "sans-serif"],
       "baby-doll": ["Baby Doll"],
     },
+    fontSize: {
+      title: "35px",
+      subtitle: "28px",
+      "custom-text": "14px",
+    },
     extend: {},
   },
   plugins: [],

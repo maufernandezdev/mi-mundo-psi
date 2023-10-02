@@ -3,12 +3,15 @@ interface Props {
   backgroundColor: string;
   color?: string;
   shadow?: boolean;
+  type?: "button" | "submit";
+  onClick?: () => void;
 }
 export function PrimaryButton({
   title,
   color = "#ffffff",
   backgroundColor,
   shadow = false,
+  type = "button",
 }: Props) {
   return (
     <>
@@ -24,6 +27,7 @@ export function PrimaryButton({
           textTransform: "uppercase",
           fontWeight: "700",
         }}
+        type={type}
       >
         {title}
       </button>

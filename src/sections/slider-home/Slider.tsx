@@ -12,9 +12,8 @@ export function SliderHome() {
     <div className="w-[750px]">
       <ReactSlider
         autoplay={false}
-        // autoplaySpeed={5000}
+        autoplaySpeed={5000}
         infinite={false}
-        // dots
         responsive={[{ breakpoint: 640, settings: { dots: false } }]}
         dots={false}
         className="z-10"
@@ -50,31 +49,31 @@ export function SliderHome() {
             <div className="flex flex-wrap mt-4 text-white justify-end pr-8">
               <Link
                 href=""
-                className="w-3/4 mb-4 bg-orange rounded-lg px-2 py-1 font-bold h-[33px]"
+                className="w-3/4 mb-4 bg-orange rounded-lg px-2 py-1 font-bold h-[33px] font-baby-doll"
               >
                 Presentación
               </Link>
               <Link
                 href=""
-                className="w-3/4 mb-4 bg-pink rounded-lg px-2 py-1 font-bold h-[33px]"
+                className="w-3/4 mb-4 bg-pink rounded-lg px-2 py-1 font-bold h-[33px] font-baby-doll"
               >
                 Talleres y Workshops{" "}
               </Link>
               <Link
                 href=""
-                className="w-3/4 mb-4 bg-blue-grey rounded-lg px-2 py-1 font-bold h-[33px]"
+                className="w-3/4 mb-4 bg-blue-grey rounded-lg px-2 py-1 font-bold h-[33px] font-baby-doll"
               >
                 Blog
               </Link>
               <Link
                 href=""
-                className="w-3/4 mb-4 bg-primary-sky-blue rounded-lg px-2 py-1 font-bold h-[33px]"
+                className="w-3/4 mb-4 bg-primary-sky-blue rounded-lg px-2 py-1 font-bold h-[33px] font-baby-doll"
               >
                 Tienda
               </Link>
               <Link
                 href=""
-                className="w-3/4 mb-4 bg-primary-grey rounded-lg px-2 py-1 font-bold h-[33px]"
+                className="w-3/4 mb-4 bg-primary-grey rounded-lg px-2 py-1 font-bold h-[33px] font-baby-doll"
               >
                 Contacto
               </Link>

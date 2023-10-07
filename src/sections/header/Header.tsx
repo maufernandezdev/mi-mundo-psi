@@ -22,6 +22,13 @@ export default function header() {
         <a href="/#">Blog</a>
         <a href="/#">Tienda</a>
         <a href="/#">Contacto</a>
+        <a href="/login">Login</a>
+        <a
+          href="/registro"
+          className="border border-[#5f728d] rounded-lg py-1 px-4"
+        >
+          Registro
+        </a>
         {/* buscador */}
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           {/* <FaTimes /> */}

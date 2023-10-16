@@ -4,11 +4,6 @@
   padding: 3rem 0rem;
 }
 
-.container h2 {
-  font-family: var(--fontBabyDoll);
-  font-size: 30px;
-}
-
 /* [2023-08-20] - card */
 
 .card {
@@ -35,6 +30,7 @@
   color: var(--mainBlue);
   font-weight: 300;
   padding-right: 5px;
+  background-color: red;
 }
 
 .card .title {
@@ -43,6 +39,7 @@
   font-size: 1rem;
   text-align: left;
   padding: 0.85rem;
+  height: 100px;
 }
 
 .card .author {

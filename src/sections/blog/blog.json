@@ -1,41 +1,41 @@
 [
     {
-        "image":"/assets/images/viktor-frankl.jpg",
+        "image": "/assets/images/viktor-frankl.jpg",
         "categoryLabel": "Artículo",
         "labelBackgroundColor": "#edb6a4",
         "title": "¿Cómo mantener conversaciones difíciles?",
         "author": "Dana Petit"
     },
     {
-        "image":"/assets/images/viktor-frankl.jpg",
+        "image": "/assets/images/viktor-frankl.jpg",
         "categoryLabel": "Bibliografía",
         "labelBackgroundColor": "#edc37c",
         "title": "Cuando la comida sustituye al amor",
         "author": "Geneen Roth"
     },
     {
-        "image":"/assets/images/viktor-frankl.jpg",
+        "image": "/assets/images/viktor-frankl.jpg",
         "categoryLabel": "Bibliografía",
         "labelBackgroundColor": "#edc37c",
         "title": "Reinventarse - Tu segunda oportunidad",
         "author": "Dr. Mario Alonso Puig"
     },
     {
-        "image":"/assets/images/viktor-frankl.jpg",
+        "image": "/assets/images/viktor-frankl.jpg",
         "categoryLabel": "Bibliografía",
         "labelBackgroundColor": "#edc37c",
         "title": "El Hombre En Busca De Sentido",
         "author": "Viktor Frankl"
     },
     {
-        "image":"/assets/images/viktor-frankl.jpg",
+        "image": "/assets/images/viktor-frankl.jpg",
         "categoryLabel": "Artículo",
         "labelBackgroundColor": "#edb6a4",
         "title": "¿Qué es Mindful Eating?",
         "author": "Dana Petit"
     },
     {
-        "image":"/assets/images/viktor-frankl.jpg",
+        "image": "/assets/images/viktor-frankl.jpg",
         "categoryLabel": "Reflexiones",
         "labelBackgroundColor": "#a4e5fe",
         "title": "Orientación vocacional, un proceso de descubrimientos",

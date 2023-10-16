@@ -20,13 +20,13 @@
   align-items: center;
   font-weight: 600;
 }
-.welcome .title h2 {
+/* .welcome .title h2 {
   font-family: var(--fontBabyDoll);
   font-size: 30px;
   color: var(--mainBlue);
   text-align: center;
   margin-right: 7px;
-}
+} */
 
 .buttonContainer {
   display: flex;
@@ -129,5 +129,13 @@
   .danaPresentation .image {
     width: 275px;
     height: 500px;
+  }
+
+  .antoPresentation p {
+    text-align: left;
+  }
+
+  .danaPresentation p {
+    text-align: left;
   }
 }

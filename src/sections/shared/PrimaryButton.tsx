@@ -4,7 +4,7 @@ interface Props {
   color?: string;
   shadow?: boolean;
   type?: "button" | "submit";
-  onClick?: () => void;
+  onClickEvent?: () => void;
 }
 export function PrimaryButton({
   title,
@@ -12,6 +12,7 @@ export function PrimaryButton({
   backgroundColor,
   shadow = false,
   type = "button",
+  onClickEvent,
 }: Props) {
   return (
     <>
@@ -28,6 +29,7 @@ export function PrimaryButton({
           fontWeight: "700",
         }}
         type={type}
+        onClick={onClickEvent}
       >
         {title}
       </button>

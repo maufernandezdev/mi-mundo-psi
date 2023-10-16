@@ -12,7 +12,9 @@ export function PresentationSection() {
     <section className={styles.presentation}>
       <section className={styles.welcome}>
         <div className={styles.title}>
-          <h2>Bienvenidos!</h2>
+          <h2 className="font-baby-doll text-subtitle lg:text-title text-center mr-2 text-primary-blue">
+            Bienvenidos!
+          </h2>
           <Image src={logoColor} width={30} height={25} alt="logo"></Image>
         </div>
         <div className={styles.introContainer}>

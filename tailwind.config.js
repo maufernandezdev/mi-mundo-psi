@@ -31,6 +31,7 @@ module.exports = {
       title: "35px",
       subtitle: "28px",
       "custom-text": "14px",
+      "custom-text-desktop": "18px",
     },
     extend: {},
   },

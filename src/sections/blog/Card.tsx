@@ -4,6 +4,7 @@ import Image from "next/image";
 import bookImage from "@/assets/images/viktor-frankl.jpg";
 import styles from "./Blog.module.css";
 import { PrimaryButton } from "../shared/PrimaryButton";
+import { useState } from "react";
 
 interface Props {
   image: string;
@@ -23,11 +24,12 @@ export function Card({
     <div className={styles.card}>
       <div className={styles.imgContainer}>
         <Image
-          src={bookImage}
-          width={"100"}
-          height={215}
+          src={require(`@/assets/images/${image}`)}
+          width={0}
+          height={0}
+          style={{ width: "100%", height: 150 }}
           className={styles.img}
-          alt="book"
+          alt={title}
         ></Image>
       </div>
       <h3

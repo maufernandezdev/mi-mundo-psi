@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export function PresentationSection() {
   return (
-    <section className={styles.presentation}>
+    <section className={styles.presentation} id="presentation">
       <section className={styles.welcome}>
         <div className={styles.title}>
           <h2 className="font-baby-doll text-subtitle lg:text-title text-center mr-2 text-primary-blue">

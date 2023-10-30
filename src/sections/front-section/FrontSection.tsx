@@ -9,9 +9,9 @@ import Image from "next/image";
 
 export function FrontSection() {
   return (
-    <div className="hidden lg:flex justify-between max-w-[1024px] mx-auto flex-wrap">
+    <div className="flex mx-auto flex-wrap w-full">
       <SliderHome></SliderHome>
-      <div className="bg-orange text-white h-[585px] w-[274px] p-10 absolute z-30 ml-[750px]">
+      {/* <div className="bg-orange text-white h-[585px] w-[274px] p-10 absolute z-30 ml-[750px]">
         <h3 className="font-semibold">Blog</h3>
         <Image
           src={imageBlog}
@@ -32,12 +32,12 @@ export function FrontSection() {
             ver más
           </button>
         </div>
-      </div>
-      <section className={styles.section}>
+      </div> */}
+      {/* <section className={styles.section}>
         <Card person="dana"></Card>
         <FooterFrontSection></FooterFrontSection>
         <Card person="anto"></Card>
-      </section>
+      </section> */}
     </div>
   );
 }

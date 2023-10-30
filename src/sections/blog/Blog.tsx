@@ -18,7 +18,7 @@ export function Blog() {
   }, []);
 
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="blog">
       <div className="flex justify-center flex-wrap max-w-[1024px] mx-auto">
         <div className="flex justify-center w-full mb-[32px] lg:justify-start max-w-[750px]">
           <Image src={logoColor} width={55} height={8} alt="logo"></Image>

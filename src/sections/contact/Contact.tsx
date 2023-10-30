@@ -9,7 +9,7 @@ export function Contact() {
     console.log("press sunmit");
   };
   return (
-    <div className="bg-green px-4 pt-10 pb-12">
+    <div className="bg-green px-4 pt-10 pb-12" id="contact">
       <h2 className="font-baby-doll text-primary-blue font-semibold text-subtitle uppercase text-center lg:text-title">
         contacta con nosotras
       </h2>

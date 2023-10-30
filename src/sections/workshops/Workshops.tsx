@@ -11,7 +11,7 @@ import { PrimaryButton } from "../shared/PrimaryButton";
 
 export function Workshops() {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="workshops">
       <div className="w-full bg-blue-grey border border-white">
         <div className="bg-blue-grey w-full max-w-[500px] m-auto py-20 px-4">
           <h2 className="text-pink w-full font-semibold">
@@ -31,7 +31,7 @@ export function Workshops() {
       </div>
       <section>
         {/* Anto course */}
-        <div>
+        <div id="antoCourse">
           <div className="w-full flex max-w-[425px] justify-center pt-10 pb-4 lg:m-auto">
             <div className="w-full py-2 flex flex-col justify-center items-center">
               <h2 className="text-primary-blue font-semibold">¿Y AHORA QUE?</h2>
@@ -96,7 +96,11 @@ export function Workshops() {
         </div>
       </section>
       {/** Dana course */}
-      <section className="mt-10 py-10" style={{ borderTop: "1px solid #fff" }}>
+      <section
+        className="mt-10 py-10"
+        style={{ borderTop: "1px solid #fff" }}
+        id="danaCourse"
+      >
         <div className="w-full flex justify-center px-2 py-4 lg:m-auto max-w-[425px]">
           <div className="flex items-center">
             <div className={styles.imgContainer}>

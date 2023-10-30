@@ -1,44 +1,37 @@
 [
     {
-        "image": "/assets/images/viktor-frankl.jpg",
+        "image": "conversation.jpg",
         "categoryLabel": "Artículo",
         "labelBackgroundColor": "#edb6a4",
         "title": "¿Cómo mantener conversaciones difíciles?",
         "author": "Dana Petit"
     },
     {
-        "image": "/assets/images/viktor-frankl.jpg",
-        "categoryLabel": "Bibliografía",
-        "labelBackgroundColor": "#edc37c",
-        "title": "Cuando la comida sustituye al amor",
-        "author": "Geneen Roth"
-    },
-    {
-        "image": "/assets/images/viktor-frankl.jpg",
-        "categoryLabel": "Bibliografía",
-        "labelBackgroundColor": "#edc37c",
-        "title": "Reinventarse - Tu segunda oportunidad",
-        "author": "Dr. Mario Alonso Puig"
-    },
-    {
-        "image": "/assets/images/viktor-frankl.jpg",
-        "categoryLabel": "Bibliografía",
-        "labelBackgroundColor": "#edc37c",
-        "title": "El Hombre En Busca De Sentido",
-        "author": "Viktor Frankl"
-    },
-    {
-        "image": "/assets/images/viktor-frankl.jpg",
+        "image": "psychology.jpg",
         "categoryLabel": "Artículo",
         "labelBackgroundColor": "#edb6a4",
-        "title": "¿Qué es Mindful Eating?",
-        "author": "Dana Petit"
+        "title": "¿Cómo dar el primer paso para iniciar terapia?",
+        "author": "Antonela Oreggioni"
     },
     {
-        "image": "/assets/images/viktor-frankl.jpg",
-        "categoryLabel": "Reflexiones",
-        "labelBackgroundColor": "#a4e5fe",
-        "title": "Orientación vocacional, un proceso de descubrimientos",
+        "image": "demotivation.jpg",
+        "categoryLabel": "Artículo",
+        "labelBackgroundColor": "#edb6a4",
+        "title": "El síntoma de la vedette: La desmotivación laboral",
+        "author": "Antonela Oreggioni"
+    },
+    {
+        "image": "love.jpg",
+        "categoryLabel": "Artículo",
+        "labelBackgroundColor": "#edb6a4",
+        "title": "Lenguajes del amor",
+        "author": "Antonela Oreggioni"
+    },
+    {
+        "image": "balance.jpg",
+        "categoryLabel": "Artículo",
+        "labelBackgroundColor": "#edb6a4",
+        "title": "Ni negro ni blanco. En busca de los grises y el equilibrio.",
         "author": "Antonela Oreggioni"
     }
 ]

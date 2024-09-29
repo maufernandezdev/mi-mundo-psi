@@ -18,17 +18,17 @@ export default function header() {
       </Link>
       <nav ref={navRef} className="z-50">
         <a href="/#">Home</a>
-        <a href="/#">Talleres</a>
-        <a href="/#">Blog</a>
-        <a href="/#">Tienda</a>
-        <a href="/#">Contacto</a>
-        <a href="/login">Login</a>
-        <a
+        <a href="#workshops">Talleres</a>
+        <a href="#blog">Blog</a>
+        <a href="#tienda">Tienda</a>
+        <a href="/#contacto">Contacto</a>
+        {/* <a href="/login">Login</a> */}
+        {/* <a
           href="/registro"
           className="border border-[#5f728d] rounded-lg py-1 px-4"
         >
           Registro
-        </a>
+        </a> */}
         {/* buscador */}
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           {/* <FaTimes /> */}

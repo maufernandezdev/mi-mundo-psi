@@ -9,7 +9,8 @@ import Image from "next/image";
 
 export function FrontSection() {
   return (
-    <div className="flex mx-auto flex-wrap w-full">
+    // <div className="flex mx-auto flex-wrap w-full">
+    <div className="">
       <SliderHome></SliderHome>
       {/* <div className="bg-orange text-white h-[585px] w-[274px] p-10 absolute z-30 ml-[750px]">
         <h3 className="font-semibold">Blog</h3>

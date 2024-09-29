@@ -15,7 +15,7 @@ export default function Blog() {
     setSampleBlogList(blogList);
   }, []);
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="blog">
       <div className="flex justify-center flex-wrap max-w-[1024px] mx-auto">
         <div className="flex justify-center w-full mb-[32px] lg:justify-start max-w-[750px]">
           <Image src={logoColor} width={60} height={8} alt="logo"></Image>
@@ -31,7 +31,7 @@ export default function Blog() {
             sampleBlogList.map((blog: any, index: number) => {
               return (
                 <div className="lg:mr-5">
-                  <Card key={index} {...blog}></Card>;
+                  <Card key={index} {...blog}></Card>
                 </div>
               );
             })}

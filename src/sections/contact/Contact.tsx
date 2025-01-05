@@ -25,7 +25,7 @@ export function Contact() {
         <br /> <br />
         Si estas interesado en comenzar un proceso terapéutico completa el
         siguiente formulario, luego nos comunicaremos con vos para poder
-        coordinar un primer encuentro...
+        coordinar un primer encuentro.
       </p>
       <div className="bg-pink p-4 rounded-lg mb-10 lg:mb-14 w-full max-w-[750px] mx-auto">
         <form onSubmit={onSubmit} className="w-full max-w-[750px]">

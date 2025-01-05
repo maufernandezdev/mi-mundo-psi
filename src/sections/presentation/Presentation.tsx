@@ -39,13 +39,13 @@ export function PresentationSection() {
               cambio con nosotras, a través de sesiones online!
             </span>
           </p>
-          <div className={styles.buttonContainer}>
+          {/* <div className={styles.buttonContainer}>
             <PrimaryButton
               title="AGENDAR CONSULTA"
               backgroundColor="#edb6a4"
               shadow={true}
             ></PrimaryButton>
-          </div>
+          </div> */}
         </div>
       </section>
       <PersonalPresentation person="anto"></PersonalPresentation>

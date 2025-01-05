@@ -8,6 +8,7 @@ import { Modality } from "./Modality";
 import { Content } from "./Content";
 import { Requirements } from "./Requirements";
 import { PrimaryButton } from "../shared/PrimaryButton";
+import Link from "next/link";
 
 export function Workshops() {
   return (
@@ -57,6 +58,17 @@ export function Workshops() {
             </div>
           </div>
           <div className="w-full max-w-[650px] lg:m-auto text-left">
+            <section className="mb-4 px-4">
+              <video
+                controls
+                playsInline
+                controlsList="nodownload"
+                id="video-player"
+                className="h-full w-full"
+              >
+                <source src={"/video_anto.mp4"} type="video/mp4" />
+              </video>
+            </section>
             <p className={"text-primary-blue px-4 pt-4 pb-10 text-[14px]"}>
               <span>OBJETIVOS: </span>
               Que puedas&nbsp;
@@ -88,11 +100,21 @@ export function Workshops() {
           </div>
         </div>
         <div className="py-4 lg:py-8">
-          <PrimaryButton
+          {/* <PrimaryButton
             title="inscribirme"
             backgroundColor="#5f728d"
             shadow={true}
-          ></PrimaryButton>
+          ></PrimaryButton> */}
+          <Link
+            className="bg-[#5f728d] uppercase text-white rounded-[20px] py-[4.8px] px-[48px] font-bold border-none outline-none"
+            style={{ boxShadow: "0px 0px 5px 1px rgba(0,0,0,0.75)" }}
+            href={
+              "https://wa.me/61475126175?text=Hola Anto%2C%20quiero%20inscribirme%20en%20el%20curso%20de%20construcción%20vocacional"
+            }
+            target="_blank"
+          >
+            inscribirme
+          </Link>
         </div>
       </section>
       {/** Dana course */}
@@ -163,11 +185,16 @@ export function Workshops() {
           </div>
         </div>
         <div className="py-4 lg:py-8">
-          <PrimaryButton
-            title="inscribirme"
-            backgroundColor="#5f728d"
-            shadow={true}
-          ></PrimaryButton>
+          <Link
+            className="bg-[#5f728d] uppercase text-white rounded-[20px] py-[4.8px] px-[48px] font-bold border-none outline-none"
+            style={{ boxShadow: "0px 0px 5px 1px rgba(0,0,0,0.75)" }}
+            href={
+              "https://wa.me/5493425356008?text=Hola Dana%2C%20quiero%20inscribirme%20en%20el%20curso%20de%20alimentación%20consciente%20y%20mindful%20eating"
+            }
+            target="_blank"
+          >
+            inscribirme
+          </Link>
         </div>
       </section>
     </section>

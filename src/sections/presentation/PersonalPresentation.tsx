@@ -3,6 +3,7 @@ import { PrimaryButton } from "../shared/PrimaryButton";
 import imageAnto from "@/assets/images/anto.jpg";
 import imageDana from "@/assets/images/dana.jpg";
 import Image from "next/image";
+import Link from "next/link";
 
 interface Props {
   person: string;
@@ -71,11 +72,16 @@ export function PersonalPresentation({ person }: Props) {
                   <span>una constante búsqueda de la felicidad.</span>
                 </p>
                 <div className="hidden lg:flex lg:justify-start lg:w-full lg:mt-8">
-                  <PrimaryButton
-                    title="agendar consulta"
-                    backgroundColor="#5f728d"
-                    shadow={true}
-                  ></PrimaryButton>
+                  <Link
+                    className="bg-[#5f728d] uppercase text-white rounded-[20px] py-[4.8px] px-[48px] font-bold border-none outline-none"
+                    style={{ boxShadow: "0px 0px 5px 1px rgba(0,0,0,0.75)" }}
+                    href={
+                      "https://wa.me/61475126175?text=Hola Anto%2C%20quiero%20agendar%20una%20consulta"
+                    }
+                    target="_blank"
+                  >
+                    agendar consulta
+                  </Link>
                 </div>
               </div>
               <div className={styles.imageContainer}>
@@ -89,11 +95,16 @@ export function PersonalPresentation({ person }: Props) {
               </div>
             </div>
             <div className="flex lg:hidden justify-center w-full mt-8">
-              <PrimaryButton
-                title="agendar consulta"
-                backgroundColor="#5f728d"
-                shadow={true}
-              ></PrimaryButton>
+              <Link
+                className="bg-[#5f728d] uppercase text-white rounded-[20px] py-[4.8px] px-[48px] font-bold border-none outline-none"
+                style={{ boxShadow: "0px 0px 5px 1px rgba(0,0,0,0.75)" }}
+                href={
+                  "https://wa.me/61475126175?text=Hola Anto%2C%20quiero%20agendar%20una%20consulta"
+                }
+                target="_blank"
+              >
+                agendar consulta
+              </Link>
             </div>
           </>
         ) : (
@@ -139,11 +150,16 @@ export function PersonalPresentation({ person }: Props) {
                 <br />
                 <p>Los espero.</p>
                 <div className="hidden lg:flex lg:justify-start lg:w-full lg:mt-8">
-                  <PrimaryButton
-                    title="agendar consulta"
-                    backgroundColor="#7cbab5"
-                    shadow={true}
-                  ></PrimaryButton>
+                  <Link
+                    className="bg-[#7cbab5] uppercase text-white rounded-[20px] py-[4.8px] px-[48px] font-bold border-none outline-none"
+                    style={{ boxShadow: "0px 0px 5px 1px rgba(0,0,0,0.75)" }}
+                    href={
+                      "https://wa.me/5493425356008?text=Hola Dana%2C%20quiero%20agendar%20una%20consulta"
+                    }
+                    target="_blank"
+                  >
+                    agendar consulta
+                  </Link>
                 </div>
               </div>
 
@@ -160,11 +176,16 @@ export function PersonalPresentation({ person }: Props) {
             </div>
 
             <div className="flex lg:hidden justify-center w-full mt-8">
-              <PrimaryButton
-                title="agendar consulta"
-                backgroundColor="#7cbab5"
-                shadow={true}
-              ></PrimaryButton>
+              <Link
+                className="bg-[#7cbab5] uppercase text-white rounded-[20px] py-[4.8px] px-[48px] font-bold border-none outline-none"
+                style={{ boxShadow: "0px 0px 5px 1px rgba(0,0,0,0.75)" }}
+                href={
+                  "https://wa.me/5493425356008?text=Hola Dana%2C%20quiero%20agendar%20una%20consulta"
+                }
+                target="_blank"
+              >
+                agendar consulta
+              </Link>
             </div>
           </>
         )}

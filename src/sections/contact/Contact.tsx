@@ -43,7 +43,7 @@ export function Contact() {
     setIsSendingEmail(false);
   };
   return (
-    <div className="bg-green px-4 pt-10 pb-12" id="contacto">
+    <div className="bg-green-500 px-4 pt-10 pb-12" id="contacto">
       <h2 className="font-baby-doll text-primary-blue font-semibold text-subtitle uppercase text-center lg:text-title">
         contacta con nosotras
       </h2>

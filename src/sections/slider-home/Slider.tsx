@@ -36,7 +36,7 @@ export function SliderHome() {
   return (
     // <div className="w-full">
     <ReactSlider
-      autoplay={false}
+      autoplay={true}
       autoplaySpeed={5000}
       infinite={true}
       // responsive={[{ breakpoint: 640, settings: { dots: false } }]}

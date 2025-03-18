@@ -15,6 +15,7 @@ module.exports = {
       "primary-blue": "#264e56",
       "primary-sky-blue": "#a4e5fe",
       green: "#90dbb9",
+      "green-500": "#8BC6C0",
       orange: "#edc37c",
       pink: "#edb6a4",
       white: "#ffffff",

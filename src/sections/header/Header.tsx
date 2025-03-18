@@ -20,7 +20,7 @@ export default function header() {
         <a href="/#">Home</a>
         <a href="#workshops">Talleres</a>
         <a href="#blog">Blog</a>
-        {/* <a href="#tienda">Tienda</a> */}
+        {/* <a href="#tienda">Recursos</a> */}
         <a href="/#contacto">Contacto</a>
         {/* <a href="/login">Login</a> */}
         {/* <a

@@ -3,10 +3,44 @@ import { PrimaryButton } from "../shared/PrimaryButton";
 import { BsInstagram } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import Link from "next/link";
+import emailjs from "@emailjs/browser";
+import { useState } from "react";
+
 export function Contact() {
-  const onSubmit = (e: any) => {
+  const [submitButtonValue, setSubmitButtonValue] = useState("Enviar");
+  const [isSendingEmail, setIsSendingEmail] = useState(false);
+  const [emailSendStatus, setEmailSendStatus] = useState({
+    status: "empty",
+    message: "",
+  });
+  const onSubmit = async (e: any) => {
     e.preventDefault();
-    console.log("press sunmit");
+    setIsSendingEmail(true);
+    setSubmitButtonValue("Enviando...");
+    const serviceID = "service_twmtiu8";
+    const templateID = "template_75dp3oz";
+    const publicKey = "RMH0qeOLiioEqnILw";
+    const res = await emailjs.sendForm(serviceID, templateID, e.target, {
+      publicKey: publicKey,
+    });
+    if (res.status === 200) {
+      setEmailSendStatus({
+        status: "success",
+        message: "Tu consulta fue enviada correctactamente.",
+      });
+    } else {
+      setEmailSendStatus({
+        status: "error",
+        message: "Ocurrió un error al enviar tu consulta.",
+      });
+    }
+    setSubmitButtonValue("Enviar");
+    e.target.reset();
+
+    setTimeout(() => {
+      setEmailSendStatus({ status: "empty", message: "" });
+    }, 5000);
+    setIsSendingEmail(false);
   };
   return (
     <div className="bg-green px-4 pt-10 pb-12" id="contacto">
@@ -28,10 +62,11 @@ export function Contact() {
         coordinar un primer encuentro.
       </p>
       <div className="bg-pink p-4 rounded-lg mb-10 lg:mb-14 w-full max-w-[750px] mx-auto">
-        <form onSubmit={onSubmit} className="w-full max-w-[750px]">
+        <form onSubmit={onSubmit} className="w-full max-w-[750px]" id="form">
           <input
             type="text"
             name="name"
+            id="name"
             placeholder="Nombre"
             className="rounded-lg text-custom-text p-2 text-primary-blue w-full mb-4 outline-none"
             required
@@ -39,6 +74,7 @@ export function Contact() {
           <input
             type="email"
             name="email"
+            id="email"
             placeholder="Dirección de correo electrónico"
             className="rounded-lg text-custom-text p-2 text-primary-blue w-full mb-4 outline-none"
             required
@@ -46,13 +82,14 @@ export function Contact() {
           <input
             type="number"
             name="phone"
+            id="phone"
             placeholder="Teléfono"
             className="rounded-lg text-custom-text p-2 text-primary-blue w-full mb-4 outline-none"
             required
           />
           <textarea
-            name="msg"
-            id="msg"
+            name="message"
+            id="message"
             cols={30}
             rows={10}
             placeholder="Mensaje"
@@ -61,10 +98,16 @@ export function Contact() {
           ></textarea>
           <div className="text-center">
             <PrimaryButton
-              title="Enviar"
+              title={submitButtonValue}
               backgroundColor="#5f728d"
               type="submit"
+              disabled={isSendingEmail}
             ></PrimaryButton>
+            {emailSendStatus.status !== "empty" && (
+              <div className="mt-4">
+                <p className="text-custom-text">{emailSendStatus.message}</p>
+              </div>
+            )}
           </div>
         </form>
       </div>

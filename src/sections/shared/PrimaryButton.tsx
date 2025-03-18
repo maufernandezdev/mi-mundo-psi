@@ -4,6 +4,7 @@ interface Props {
   color?: string;
   shadow?: boolean;
   type?: "button" | "submit";
+  disabled?: boolean;
   onClickEvent?: () => void;
 }
 export function PrimaryButton({
@@ -12,6 +13,7 @@ export function PrimaryButton({
   backgroundColor,
   shadow = false,
   type = "button",
+  disabled = false,
   onClickEvent,
 }: Props) {
   return (
@@ -30,6 +32,7 @@ export function PrimaryButton({
         }}
         type={type}
         onClick={onClickEvent}
+        disabled={disabled}
       >
         {title}
       </button>

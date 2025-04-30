@@ -1,0 +1,42 @@
+[
+  {
+    "image": "dialogo_interno.png",
+    "categoryLabel": "Artículo",
+    "labelBackgroundColor": "#edb6a4",
+    "file_name": "Guía Semanal 7 Herramientas para mejorar tu diálogo interno",
+    "title": "Guía Semanal 7 Herramientas para mejorar tu diálogo interno",
+    "author": "Dana Petit"
+  },
+  {
+    "image": "relacion_conmigo.png",
+    "categoryLabel": "Artículo",
+    "labelBackgroundColor": "#edb6a4",
+    "file_name": "¿CÓMO MEJORAR LA RELACIÓN QUE TENGO CONMIGO.pdf",
+    "title": "¿CÓMO MEJORAR LA RELACIÓN QUE TENGO CONMIGO?",
+    "author": "Antonela Oreggioni"
+  },
+  {
+    "image": "navega_emociones.png",
+    "categoryLabel": "Artículo",
+    "labelBackgroundColor": "#edb6a4",
+    "file_name": "Guía Semanal 6 Navega tus emociones.pdf",
+    "title": "Guía Semanal 6 Navega tus emociones",
+    "author": "Antonela Oreggioni"
+  },
+  {
+    "image": "love.jpg",
+    "categoryLabel": "Artículo",
+    "labelBackgroundColor": "#edb6a4",
+    "file_name": "Guía Semanal  ¿Qué tipo de apego tengo?",
+    "title": "Guía Semanal  ¿Qué tipo de apego tengo?",
+    "author": "Antonela Oreggioni"
+  },
+  {
+    "image": "balance.jpg",
+    "categoryLabel": "Artículo",
+    "labelBackgroundColor": "#edb6a4",
+    "file_name": "Guia Semanal ¿Cómo mejorar mi autoestima?",
+    "title": "Guia Semanal ¿Cómo mejorar mi autoestima?",
+    "author": "Antonela Oreggioni"
+  }
+]

@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import styles from "./Blog.module.css";
+import styles from "./Resource.module.css";
 import { PrimaryButton } from "../shared/PrimaryButton";
 
 interface Props {
@@ -10,6 +10,7 @@ interface Props {
   title: string;
   author: string;
   labelBackgroundColor: string;
+  openModal: () => void;
 }
 export function Card({
   image,
@@ -17,6 +18,7 @@ export function Card({
   title,
   author,
   labelBackgroundColor,
+  openModal,
 }: Props) {
   return (
     <div className={styles.card}>
@@ -30,19 +32,22 @@ export function Card({
           alt={title}
         ></Image>
       </div>
-      <h3
+      {/* <h3
         className={styles.label}
         style={{ backgroundColor: labelBackgroundColor }}
-      >
+        >
         {categoryLabel}
-      </h3>
+        </h3> */}
       <h3 className={styles.title}>{title}</h3>
-      <h3 className={styles.author}>{author}</h3>
-      {/* <button>leer más</button> */}
+      {/* <h3 className={styles.author}>{author}</h3> */}
       <div style={{ marginTop: 35, marginBottom: 15 }}>
         <PrimaryButton
           title="leer más"
           backgroundColor="#5f728d"
+          onClickEvent={() => {
+            console.log("click!");
+            openModal();
+          }}
         ></PrimaryButton>
       </div>
     </div>

@@ -20,6 +20,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Header></Header>
         {children}
+        <div id="login-modal"></div>
       </body>
       <script
         type="text/javascript"

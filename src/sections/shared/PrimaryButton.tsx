@@ -6,6 +6,7 @@ interface Props {
   type?: "button" | "submit";
   disabled?: boolean;
   onClickEvent?: () => void;
+  customStyles?: string;
 }
 export function PrimaryButton({
   title,
@@ -15,10 +16,12 @@ export function PrimaryButton({
   type = "button",
   disabled = false,
   onClickEvent,
+  customStyles,
 }: Props) {
   return (
     <>
       <button
+        className={customStyles}
         style={{
           borderRadius: "20px",
           color: color,

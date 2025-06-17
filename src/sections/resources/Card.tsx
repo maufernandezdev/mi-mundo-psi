@@ -3,6 +3,7 @@
 import Image from "next/image";
 import styles from "./Resource.module.css";
 import { PrimaryButton } from "../shared/PrimaryButton";
+import { ModalResources } from "./ModalResources";
 
 interface Props {
   image: string;

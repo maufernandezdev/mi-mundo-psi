@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "image": "dialogo_interno.png",
     "categoryLabel": "Artículo",
     "labelBackgroundColor": "#edb6a4",
@@ -7,15 +8,17 @@
     "title": "Guía Semanal 7 Herramientas para mejorar tu diálogo interno",
     "author": "Dana Petit"
   },
-  {
+  { 
+    "id": 2,
     "image": "relacion_conmigo.png",
     "categoryLabel": "Artículo",
     "labelBackgroundColor": "#edb6a4",
     "file_name": "¿CÓMO MEJORAR LA RELACIÓN QUE TENGO CONMIGO.pdf",
-    "title": "¿CÓMO MEJORAR LA RELACIÓN QUE TENGO CONMIGO?",
+    "title": "¿Cómo mejorar la relación que tengo conmigo?",
     "author": "Antonela Oreggioni"
   },
-  {
+  { 
+    "id": 3,
     "image": "navega_emociones.png",
     "categoryLabel": "Artículo",
     "labelBackgroundColor": "#edb6a4",
@@ -23,20 +26,112 @@
     "title": "Guía Semanal 6 Navega tus emociones",
     "author": "Antonela Oreggioni"
   },
-  {
-    "image": "love.jpg",
+  { 
+    "id": 4,
+    "image": "apego.png",
     "categoryLabel": "Artículo",
     "labelBackgroundColor": "#edb6a4",
-    "file_name": "Guía Semanal  ¿Qué tipo de apego tengo?",
-    "title": "Guía Semanal  ¿Qué tipo de apego tengo?",
+    "file_name": "Guía Semanal ¿Qué tipo de apego tengo?",
+    "title": "Guía Semanal ¿Qué tipo de apego tengo?",
     "author": "Antonela Oreggioni"
   },
-  {
-    "image": "balance.jpg",
+  { 
+    "id": 5,
+    "image": "autoestima.png",
     "categoryLabel": "Artículo",
     "labelBackgroundColor": "#edb6a4",
     "file_name": "Guia Semanal ¿Cómo mejorar mi autoestima?",
     "title": "Guia Semanal ¿Cómo mejorar mi autoestima?",
+    "author": "Antonela Oreggioni"
+  },
+  { 
+    "id": 6,
+    "image": "control.png",
+    "categoryLabel": "Artículo",
+    "labelBackgroundColor": "#edb6a4",
+    "file_name": "Guia Semanal ¿Cómo soltar el control?",
+    "title": "Guia Semanal ¿Cómo soltar el control?",
+    "author": "Antonela Oreggioni"
+  },
+  { 
+    "id": 7,
+    "image": "ejercicio_en_pareja.png",
+    "categoryLabel": "Artículo",
+    "labelBackgroundColor": "#edb6a4",
+    "file_name": "Guia Semanal 2 Ejercicio para hacer en parejas",
+    "title": "Guia Semanal 2 Ejercicio para hacer en parejas",
+    "author": "Antonela Oreggioni"
+  },
+  { 
+    "id": 8,
+    "image": "goals.png",
+    "categoryLabel": "Artículo",
+    "labelBackgroundColor": "#edb6a4",
+    "file_name": "Guia Semanal 3 Repensando mis objetivos",
+    "title": "Guia Semanal 3 Repensando mis objetivos",
+    "author": "Antonela Oreggioni"
+  },
+  { 
+    "id": 9,
+    "image": "guia_que_hacer_con_mis_preocupaciones.png",
+    "categoryLabel": "Artículo",
+    "labelBackgroundColor": "#edb6a4",
+    "file_name": "Guia Semanal 4 Para tus preocupaciones",
+    "title": "Guia Semanal 4 Para tus preocupaciones",
+    "author": "Antonela Oreggioni"
+  },
+  { 
+    "id": 10,
+    "image": "dejalo_ir.png",
+    "categoryLabel": "Artículo",
+    "labelBackgroundColor": "#edb6a4",
+    "file_name": "Guia Semanal 5 Guía para dejarlo ir",
+    "title": "Guia Semanal 5 Guía para dejarlo ir",
+    "author": "Antonela Oreggioni"
+  },
+  { 
+    "id": 11,
+    "image": "autoconocimiento_emocional.png",
+    "categoryLabel": "Artículo",
+    "labelBackgroundColor": "#edb6a4",
+    "file_name": "Guia Semanal 6 Navega tus emociones",
+    "title": "Guia Semanal 6 Navega tus emociones",
+    "author": "Antonela Oreggioni"
+  },
+  { 
+    "id": 12,
+    "image": "gratitud.png",
+    "categoryLabel": "Artículo",
+    "labelBackgroundColor": "#edb6a4",
+    "file_name": "Guia Semanal 8 ¿Cómo practicar la gratitud?",
+    "title": "Guia Semanal 8 ¿Cómo practicar la gratitud?",
+    "author": "Antonela Oreggioni"
+  },
+  { 
+    "id": 13,
+    "image": "guia_relacion_amorosa.png",
+    "categoryLabel": "Artículo",
+    "labelBackgroundColor": "#edb6a4",
+    "file_name": "Guia Semanal Para pensar en tu relacion amorosa",
+    "title": "Guia Semanal Para pensar en tu relacion amorosa",
+    "author": "Antonela Oreggioni"
+  },
+  { 
+    "id": 14,
+    "image": "alimentacion_consciente.png",
+    "categoryLabel": "Artículo",
+    "labelBackgroundColor": "#edb6a4",
+    "file_name": "Guia Semanal Trabajando en una alimentacion consciente",
+    "title": "Guia Semanal ¿Cómo practicar la gratitud?",
+    "author": "Antonela Oreggioni"
+  },
+  { 
+    "id": 15,
+    "image": "soltar_control.png",
+    "categoryLabel": "Artículo",
+    "labelBackgroundColor": "#edb6a4",
+    "file_name": "Guia Semanal Suelta el control",
+    "title": "Guia Semanal Suelta el control",
     "author": "Antonela Oreggioni"
   }
 ]

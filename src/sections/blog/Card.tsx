@@ -3,8 +3,10 @@
 import Image from "next/image";
 import styles from "./Blog.module.css";
 import { PrimaryButton } from "../shared/PrimaryButton";
+import { useRouter } from "next/navigation";
 
 interface Props {
+  id: number;
   image: string;
   categoryLabel: string;
   title: string;
@@ -12,12 +14,14 @@ interface Props {
   labelBackgroundColor: string;
 }
 export function Card({
+  id,
   image,
   categoryLabel,
   title,
   author,
   labelBackgroundColor,
 }: Props) {
+  const router = useRouter();
   return (
     <div className={styles.card}>
       <div className={styles.imgContainer}>
@@ -43,6 +47,10 @@ export function Card({
         <PrimaryButton
           title="leer más"
           backgroundColor="#5f728d"
+          type="button"
+          onClickEvent={() => {
+            router.push(`/blog/${id}`);
+          }}
         ></PrimaryButton>
       </div>
     </div>

@@ -1,33 +1,38 @@
 [
-    {
+    {   
+        "id": 1,
         "image": "conversation.jpg",
         "categoryLabel": "Artículo",
         "labelBackgroundColor": "#edb6a4",
         "title": "¿Cómo mantener conversaciones difíciles?",
         "author": "Dana Petit"
     },
-    {
+    {   
+        "id": 2,
         "image": "psychology.jpg",
         "categoryLabel": "Artículo",
         "labelBackgroundColor": "#edb6a4",
         "title": "¿Cómo dar el primer paso para iniciar terapia?",
         "author": "Antonela Oreggioni"
     },
-    {
+    {   
+        "id": 3,
         "image": "demotivation.jpg",
         "categoryLabel": "Artículo",
         "labelBackgroundColor": "#edb6a4",
         "title": "El síntoma de la vedette: La desmotivación laboral",
         "author": "Antonela Oreggioni"
     },
-    {
+    {   
+        "id": 4,
         "image": "love.jpg",
         "categoryLabel": "Artículo",
         "labelBackgroundColor": "#edb6a4",
         "title": "Lenguajes del amor",
         "author": "Antonela Oreggioni"
     },
-    {
+    {   
+        "id": 5,
         "image": "balance.jpg",
         "categoryLabel": "Artículo",
         "labelBackgroundColor": "#edb6a4",

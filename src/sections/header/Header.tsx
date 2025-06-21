@@ -1,34 +1,40 @@
 "use client";
 
 import Link from "next/link";
-import { useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import { HiBars3 } from "react-icons/hi2";
 import { RxCross2 } from "react-icons/rx";
+import { usePathname } from "next/navigation";
 
 export default function header() {
   const navRef = useRef<HTMLDivElement>(null);
-
+  const pathname = usePathname();
+  const [currentPath, setCurrentPath] = useState('')
   const showNavbar = () => {
     navRef.current?.classList.toggle("responsive_nav");
   };
+
   return (
     <header className="max-w-[1024px] m-auto z-50">
       <Link href="/">
         <h3>Mi mundo psi</h3>
       </Link>
       <nav ref={navRef} className="z-50">
-        <a href="/#">Home</a>
-        <a href="#workshops">Talleres</a>
-        <a href="#blog">Blog</a>
-        <a href="#resources">Recursos</a>
-        <a href="/#contacto">Contacto</a>
-        {/* <a href="/login">Login</a> */}
-        {/* <a
-          href="/registro"
-          className="border border-[#5f728d] rounded-lg py-1 px-4"
-        >
-          Registro
-        </a> */}
+        <Link href={"/"} onClick={() => showNavbar()}>Home</Link>
+        <Link href={"/#workshops"} onClick={() => showNavbar()}>Talleres</Link>
+        {pathname === "/" ? (
+          <Link href={"/#blog"} onClick={() => showNavbar()}>Blog</Link>
+        ) : (
+          <Link href={"/blog"} onClick={() => showNavbar()}>Blog</Link>
+        )}
+        {pathname === "/" ? (
+          <Link href="/#resources" onClick={() => showNavbar()}>Recursos</Link>
+        ) : (
+          <Link href="/recursos" onClick={() => showNavbar()}>Recursos</Link>
+        )}
+
+        <Link href="/#contacto" onClick={() => showNavbar()}>Contacto</Link>
+
         {/* buscador */}
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           {/* <FaTimes /> */}

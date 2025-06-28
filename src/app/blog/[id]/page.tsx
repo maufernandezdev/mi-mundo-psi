@@ -9,7 +9,6 @@ import {
 } from "@/sections/blog/list";
 import { useRouter } from "next/navigation";
 import blogList from "../../../sections/blog/blog.json";
-import { useEffect } from "react";
 
 export default function BlogDetail() {
   const params = useParams();

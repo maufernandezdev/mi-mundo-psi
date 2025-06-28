@@ -33,13 +33,23 @@ export function PersonalPresentation({ person }: Props) {
           <>
             <div className="max-w-[1024px] flex flex-wrap justify-around">
               <div className="max-w-[660px] lg:mr-16">
-                <p>
+                {/* <p>
                   Hola ! <span>Soy Antonela Oreggioni</span>, Lic. en psicología
                   (Mat. 1994). Estoy especializada en psicología clínica y
                   orientación vocacional.
+                </p> */}
+                <p>
+                  Soy <span>Antonela</span>, psicóloga especializada en
+                  acompañar procesos de autoconocimiento y bienestar emocional.
+                  Trabajo desde un enfoque integrativo, lo que significa que
+                  adapto distintas herramientas y perspectivas terapéuticas
+                  (como el psicoanálisis, la cognitivo-conductual, sistémica y
+                  humanista) según tus necesidades y características. Esto nos
+                  permite abordar tus objetivos de una manera personalizada,
+                  profunda y efectiva.
                 </p>
                 <br />
-                <p>
+                {/* <p>
                   Me encantan las temáticas sociales y vinculares, disfruto de
                   poder encontrarme con mis pacientes y acompañarlos en sus
                   procesos de cambio. También disfruto mucho de mantenerme
@@ -70,6 +80,23 @@ export function PersonalPresentation({ person }: Props) {
                   Hoy me encuentro lejos de mi país natal, tratando de no perder
                   la esencia y reinventándome, porque la vida para mi es eso...
                   <span>una constante búsqueda de la felicidad.</span>
+                </p> */}
+                <p className="mb-2">
+                  💻 Las sesiones son online y nos encontraremos a través de
+                  Google Meet, para que puedas tomarlas desde cualquier lugar
+                  con comodidad y privacidad.
+                </p>
+                <p className="mb-2">
+                  🕒 Duración: Cada sesión dura aproximadamente 50 minutos.
+                </p>
+                <p>
+                  📆 Disponibilidad: Cuéntame tus horarios y días preferidos, y
+                  buscamos un momento que se ajuste a ambos.
+                </p>
+                <br />
+                <p>
+                  Si tienes dudas, haceme todas las preguntas que necesites,
+                  ¡Voy a estar feliz de ayudarte! 😊
                 </p>
                 <div className="hidden lg:flex lg:justify-start lg:w-full lg:mt-8">
                   <Link
@@ -111,7 +138,7 @@ export function PersonalPresentation({ person }: Props) {
           <>
             <div className="max-w-[1024px] flex flex-wrap justify-around">
               <div className="max-w-[660px] lg:mr-16">
-                <p>
+                {/* <p>
                   Hola ! Soy <span>Dana Petit</span>, creo mucho en lo lindo de
                   mostrar la parte humana del terapeuta así que hoy voy a
                   contarles un poco de mí: soy licenciada en psicología y
@@ -148,7 +175,22 @@ export function PersonalPresentation({ person }: Props) {
                   de psicoterapia.
                 </p>
                 <br />
-                <p>Los espero.</p>
+                <p>Los espero.</p> */}
+                <p>
+                  Hola Soy Dana!Te doy un poco mas de detalles sobre la terapia.
+                  ¿Que son las sesiones? Son encuentros dinámicos donde nos
+                  proponemos trabajar lo que te pasa dentro de un vínculo cálido
+                  y de confianza. ¿Cómo? Usando recursos como el diálogo, la
+                  escucha activa y diferentes ejercicios construyendo
+                  herramientas para alcanzar tu auto conocimiento y bienestar.
+                </p>
+                <br />
+                <p>
+                  ❇ Las sesiones duran 50/60min, se hacen vía Google Meet
+                  (minutos antes de iniciar te envío el link). Se abonan por
+                  Wise- Pay Pal- ACH- Wire- Swift. o su valor en Pesos
+                  Argentinos a Dólar Blue de ese día
+                </p>
                 <div className="hidden lg:flex lg:justify-start lg:w-full lg:mt-8">
                   <Link
                     className="bg-[#7cbab5] uppercase text-white rounded-[20px] py-[4.8px] px-[48px] font-bold border-none outline-none"

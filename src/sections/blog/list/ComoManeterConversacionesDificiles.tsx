@@ -2,9 +2,9 @@ import { BlogTitle } from "./BlogTitle";
 import Link from "next/link";
 export function ComoMantenerConversacionesDificiles() {
   return (
-    <div>
+    <div className="text-primary-blue px-4 lg:px-0">
       <BlogTitle text="¿Cómo iniciar conversaciones incómodas pero necesarias?" />
-      <div className="text-[18px] mt-4 text-primary-blue">
+      <div className="text-[18px] mt-4">
         <p className="font-baby-doll">
           Cuando pienso en conversaciones difíciles lo primero que se me viene a
           la cabeza es la comunicación humana, un intercambio entre dos o más

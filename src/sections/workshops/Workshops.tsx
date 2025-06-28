@@ -105,13 +105,22 @@ export function Workshops() {
             backgroundColor="#5f728d"
             shadow={true}
           ></PrimaryButton> */}
-          <Link
+          {/* <Link
             className="bg-[#5f728d] uppercase text-white rounded-[20px] py-[4.8px] px-[48px] font-bold border-none outline-none"
             style={{ boxShadow: "0px 0px 5px 1px rgba(0,0,0,0.75)" }}
             href={
               "https://wa.me/61475126175?text=Hola Anto%2C%20quiero%20inscribirme%20en%20el%20curso%20de%20construcción%20vocacional"
             }
             target="_blank"
+          >
+            inscribirme
+          </Link> */}
+          <Link
+            className="bg-[#5f728d] uppercase text-white rounded-[20px] py-[4.8px] px-[48px] font-bold border-none outline-none"
+            style={{ boxShadow: "0px 0px 5px 1px rgba(0,0,0,0.75)" }}
+            href={
+              "/curso/construccion-vocacional"
+            }
           >
             inscribirme
           </Link>

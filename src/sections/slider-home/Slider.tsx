@@ -97,13 +97,13 @@ export function SliderHome() {
               Blog
             </Link>
             <Link
-              href="#shop"
+              href="#resources"
               className="w-3/4 mb-4 bg-primary-sky-blue rounded-lg px-2 py-1 font-bold h-[33px] font-baby-doll"
             >
-              Tienda
+              Recursos
             </Link>
             <Link
-              href="#contact"
+              href="#contacto"
               className="w-3/4 mb-4 bg-primary-grey rounded-lg px-2 py-1 font-bold h-[33px] font-baby-doll"
             >
               Contacto

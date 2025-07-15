@@ -17,7 +17,7 @@ export function ComoEmpezarTerapia() {
           SIENTES QUE HOY LA TERAPIA PUEDE SER UNA OPCIÓN PARA SENTIRTE MEJOR:
           ¡INTÉNTALO!
         </span>
-        , es la única de comprobarlo y comenzar el cambio.
+        , es la única forma de comprobarlo y comenzar el cambio.
         <br />
         Aquí abajo te dejamos algunos motivos por los que puedes comenzar un
         tratamiento psi:

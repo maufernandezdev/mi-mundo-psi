@@ -29,7 +29,7 @@ export function ComoMantenerConversacionesDificiles() {
           Incluso también, la meta comunicación, es decir, hablar de cómo nos
           estamos comunicando es una pieza fundamental en la pareja. Muchas
           veces la comunicación se ve afectada por la cotidianidad, pero ¿En qué
-          sentido? Vivimos mareados por la vorágine del el día a día,
+          sentido? Vivimos mareados por la vorágine del día a día,
           automatizados en rutinas, donde no nos tomamos tiempo para
           comunicarnos de forma asertiva.
         </p>

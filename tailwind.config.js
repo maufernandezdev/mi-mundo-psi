@@ -12,16 +12,19 @@ module.exports = {
   ],
   theme: {
     colors: {
-      "primary-blue": "#264e56",
-      "primary-sky-blue": "#a4e5fe",
-      green: "#90dbb9",
+      // primary colors
+      "primary-blue": "#264e56", // 264E56
+      "primary-sky-blue": "#a4e5fe", // A4E5FE
+      green: "#90dbb9", // 90DBB9
+      
+      // secondary colors
       "green-500": "#8BC6C0",
-      orange: "#edc37c",
-      pink: "#edb6a4",
+      orange: "#edc37c", // EDC37C
+      pink: "#edb6a4", // EDB6A4
       white: "#ffffff",
-      "blue-grey": "#5f728d",
-      "sky-green": "#7cbab5",
-      "primary-grey": "#9ec9ac",
+      "blue-grey": "#5f728d", // 5F728D
+      "sky-green": "#7cbab5", // 7CBAB5
+      "primary-grey": "#9ec9ac", // 9EC9AC
       grey: "#efefef",
     },
     fontFamily: {

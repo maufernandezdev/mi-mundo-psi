@@ -7,7 +7,7 @@ export default function CourseDetail (){
   const id = params?.id;
   return (
     <section>
-      <div className="bg-primary-blue pt-10">
+      <div className="bg-blue-grey pt-10">
         <h1 className="text-[32px] font-bold uppercase text-pink text-center">descripción del taller</h1>
       </div>
       <ConstruccionVocacional />

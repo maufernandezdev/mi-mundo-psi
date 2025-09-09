@@ -24,7 +24,7 @@ export default function Recursos() {
           <h2 className="text-primary-blue uppercase mx-2 text-subtitle lg:text-title font-baby-doll">
             mi mundo psi
           </h2>
-          <h2 className="uppercase text-white bg-primary-sky-blue rounded-[15px] px-2 text-subtitle lg:text-title font-baby-doll flex items-center">
+          <h2 className="uppercase text-white bg-sky-green rounded-[15px] px-2 text-subtitle lg:text-title font-baby-doll flex items-center">
             blog!
           </h2>
         </div>

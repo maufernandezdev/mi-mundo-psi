@@ -98,7 +98,7 @@ export function SliderHome() {
             </Link>
             <Link
               href="#resources"
-              className="w-3/4 mb-4 bg-primary-sky-blue rounded-lg px-2 py-1 font-bold h-[33px] font-baby-doll"
+              className="w-3/4 mb-4 bg-sky-green rounded-lg px-2 py-1 font-bold h-[33px] font-baby-doll"
             >
               Recursos
             </Link>
@@ -156,7 +156,7 @@ export function SliderHome() {
       </div>
 
       {/* Third slide */}
-      <div className="bg-primary-sky-blue text-white py-12 px-4 h-[80vh] lg:h-[90vh] xl:[80vh]">
+      <div className="bg-sky-green text-white py-12 px-4 h-[80vh] lg:h-[90vh] xl:[80vh]">
         <div className="flex justify-center flex-wrap max-w-[1024px] m-auto">
           <h3 className="text-subtitle font-semibold text-center w-full">
             SOMOS 2

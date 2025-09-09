@@ -36,7 +36,7 @@ export function Workshops() {
           <div className="w-full flex max-w-[425px] justify-center pt-10 pb-4 lg:m-auto">
             <div className="w-full py-2 flex flex-col justify-center items-center">
               <h2 className="text-primary-blue font-semibold">¿Y AHORA QUE?</h2>
-              <h3 className="bg-primary-sky-blue text-white rounded-[16px] mt-[-17px] flex justify-center w-[260px] px-2 font-semibold">
+              <h3 className="bg-sky-green text-white rounded-[16px] mt-[-17px] flex justify-center w-[260px] px-2 font-semibold">
                 CONSTRUCCIÓN VOCACIONAL
               </h3>
               <h4 className="text-primary-blue font-bold mt-2">

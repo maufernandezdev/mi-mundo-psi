@@ -3,7 +3,7 @@ import Link from "next/link";
 export function ConstruccionVocacional() {
   return (
     <div>
-      <div className="bg-primary-blue">
+      <div className="bg-blue-grey">
         <div className="text-white text-center py-10 max-w-[1024px] mx-auto">
           <h2 className="text-[26px]">
             Taller de Construcción Vocacional: Y ahora… ¿qué hago?
@@ -18,7 +18,7 @@ export function ConstruccionVocacional() {
           </p>
         </div>
       </div>
-      <div className="bg-primary-sky-blue py-10 px-4 lg:px-0">
+      <div className="bg-sky-green py-10 px-4 lg:px-0">
         <ul className="max-w-[1024px] mx-auto flex gap-6 flex-wrap">
           <li className="bg-pink rounded-3xl p-4 text-center w-full text-[14px]">
             Conocerás los pilares fundamentales de la vocación y reflexionarás

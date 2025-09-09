@@ -15,6 +15,7 @@ export default function Home() {
       <Blog></Blog>
       <Resources />
       <Contact></Contact>
+      <p className="hidden">test</p>
     </main>
   );
 }

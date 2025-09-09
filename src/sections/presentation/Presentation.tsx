@@ -21,8 +21,8 @@ export function PresentationSection() {
           <p>
             Hola, bienvendxs ! Somos Dana y Anto,
             <span>
-              dos psico amigas con muchas ganas de contagiar y llevar la
-              psicología
+              {` dos psico amigas con muchas ganas de contagiar y llevar la
+              psicología`}{" "}
             </span>
             a cada persona y rincón de este mundo.
           </p>

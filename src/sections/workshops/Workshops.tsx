@@ -59,15 +59,14 @@ export function Workshops() {
           </div>
           <div className="w-full max-w-[650px] lg:m-auto text-left">
             <section className="mb-4 px-4">
-              <video
-                controls
-                playsInline
-                controlsList="nodownload"
-                id="video-player"
-                className="h-full w-full"
-              >
-                <source src={"/video_anto.mp4"} type="video/mp4" />
-              </video>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/JUzUDj7fTDI?rel=0"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
             </section>
             <p className={"text-primary-blue px-4 pt-4 pb-10 text-[14px]"}>
               <span>OBJETIVOS: </span>
@@ -118,9 +117,7 @@ export function Workshops() {
           <Link
             className="bg-[#5f728d] uppercase text-white rounded-[20px] py-[4.8px] px-[48px] font-bold border-none outline-none"
             style={{ boxShadow: "0px 0px 5px 1px rgba(0,0,0,0.75)" }}
-            href={
-              "/curso/construccion-vocacional"
-            }
+            href={"/curso/construccion-vocacional"}
           >
             inscribirme
           </Link>

@@ -128,7 +128,7 @@ export const ModalResources: FC<Props> = ({
                     type="text"
                     className="hidden"
                     name="name"
-                    value="solicitud de recurso"
+                    value={selectedResource?.title}
                   />
                   <input type="text" className="hidden" name="phone" value="" />
                   <input

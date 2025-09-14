@@ -59,14 +59,14 @@ export function Workshops() {
           </div>
           <div className="w-full max-w-[650px] lg:m-auto text-left">
             <section className="mb-4 px-4">
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/JUzUDj7fTDI?rel=0"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+              <div className="video-responsive">
+                <iframe
+                  src="https://www.youtube.com/embed/JUzUDj7fTDI?rel=0"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
             </section>
             <p className={"text-primary-blue px-4 pt-4 pb-10 text-[14px]"}>
               <span>OBJETIVOS: </span>

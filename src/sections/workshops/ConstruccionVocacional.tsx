@@ -5,7 +5,7 @@ export function ConstruccionVocacional() {
     <div>
       <div className="bg-blue-grey">
         <div className="text-white text-center py-10 max-w-[1024px] mx-auto">
-          <h2 className="text-[26px]">
+          <h2 className="text-[22px]">
             Taller de Construcción Vocacional: Y ahora… ¿qué hago?
           </h2>
           <br />
